@@ -9,7 +9,7 @@ batman.classList.add("batman_inactivo");
 
 
 const controlar_linterna = () => {
-    estadoLinterna = !estadoLinterna;
+
     if (estadoLinterna) {
         batman.style.backgroundImage = 'url("./img/batmanON.gif")';
     } else {
@@ -17,6 +17,7 @@ const controlar_linterna = () => {
     }
     sonido();
 }
+
 
 bati_boton.addEventListener("click", controlar_linterna)
 

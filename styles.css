@@ -4,6 +4,10 @@
   margin: 0;
 }
 
+body {
+  background-color: rgb(88, 91, 93);
+}
+
 #batman {
   position: fixed;
   top: 50%;
@@ -17,7 +21,7 @@
   background-position: center;
   background-image: url(./img/batmanOFF.jpg);
 }
-  
+
 #batman_activo {
   background-image: url(./img/batmanON.gif);
 }
