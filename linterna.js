@@ -8,25 +8,15 @@ batman.classList.add("batman_inactivo");
 
 
 
-/* const controlar_linterna = () => {
-
-    if (estadoLinterna) {
-        batman.style.backgroundImage = 'url("./img/batmanON.gif")';
-        sonido();
-    } else {
-        batman.style.backgroundImage = 'url("./img/batmanOFF.jpg")';
-    }
-} */
-
 const controlar_linterna = () => {
     if (estadoLinterna) {
         batman.style.backgroundImage = 'url("./img/batmanON.gif")';
-        sonido(true); // Se pasa true para indicar que la linterna se está encendiendo
-        estadoLinterna = false; // Se actualiza el estado de la linterna
+        sonido(true);
+        estadoLinterna = false;
     } else {
         batman.style.backgroundImage = 'url("./img/batmanOFF.jpg")';
-        sonido(true); // Se pasa false para indicar que la linterna se está apagando
-        estadoLinterna = true; // Se actualiza el estado de la linterna
+        sonido(true);
+        estadoLinterna = true;
     }
 }
 
